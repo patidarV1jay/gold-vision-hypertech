@@ -1,0 +1,110 @@
+.business h1{
+    font-size: 45px;
+    font-weight: 700;       
+}
+.business span{
+    color: #ff3d00;
+}
+.questions h6{
+    font-size: 21px;
+    font-weight: 600;
+ }
+ .frequentlyAsk h2{
+    font-weight: 700;
+ }
+ .frequentlyAsk span{
+    color: #ff3d00;
+ }
+ .questions p{
+    font-size: 18px;
+ }
+ .faq{
+    padding: 2rem;
+    margin-top: 10%;
+ }
+.updates{
+    margin-left: 12%;
+}
+.business{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+/* .faqQuestions{
+   padding-top: 2rem;
+} */
+.angleDown{
+   margin-left: 5%;
+    color: #ff3d00;
+    display: flex-end;
+}
+.questions p{
+    font-size: 18px;
+}
+.frequentlyAsk p{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+.questions {
+    padding: 20px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+/* .questionsRelated{
+    padding: 1rem;
+} */
+@media (max-width:1024px) {
+    .frequentlyAsk{
+
+        margin-top: -4rem;
+    }
+    .faqImage img{
+        height: 100%;
+        width: 100%;
+    }
+    .updates{
+        margin-left: 5%;
+    }
+    
+}
+@media (max-width:900px) {
+    .faq{
+        padding:0 ;
+    }
+    .questions{
+        border-radius: 12px;
+    }
+    .frequentlyAsk{
+        margin-top: -4rem;
+    }
+    .faqImage img{
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .updates{
+        margin-left: 0%;
+    }
+    
+}
+@media (max-width:767px) {
+    .frequentlyAsk{
+        margin-top: -4rem;
+    }
+    .faqImage img{
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .updates{
+        margin-left: 0%;
+    }
+    .business h1{
+        font-size: 34px;
+    }
+    .frequentlyAsk h2{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    
+}

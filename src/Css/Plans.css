@@ -1,0 +1,112 @@
+.plans h2{
+    font-size:45px ;
+    font-weight: 700;
+    margin: 2rem;
+    margin-left: -7rem;
+}
+.plans p{
+    font-size: 20px;
+    margin-top: 7rem;
+}
+.bestPlans{
+    padding:2rem ;
+}
+.businessplans{
+    margin-top: 5rem;
+}
+.pricingHead{
+    background:#fff5f3 ;
+    height: 10vw;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px 80px 5px 10px;
+}
+.pricingHead h2{
+    color: #ff3d00;
+    font-size: 35px;
+    font-weight: 700;
+}
+.pricingHead h5{
+    font-weight: 650;
+    margin-top: 2rem;
+    font-size: 30px;
+}
+.pricingBody ul li{
+    list-style: none;
+   padding: 10px; 
+   font-size: 20px;  
+}
+.pricingBody ul{
+    padding-top: 2rem;
+}
+.pricingBody{
+    background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722247708/featurebg_vjrhxi.png);
+    background-color: #e4e4e4f0;
+    height:27vw;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+.checkIcon{
+    color: #ff3d00;
+    padding-right:7px;
+}
+.plan{
+    font-size: 21px;
+    color: #ff3d00;
+    background-color: rgba(255, 60, 0, 0.03137254901960784);
+    border: 1px solid rgba(122, 122, 122, 0.15);
+    width: 12rem;
+    border-radius: 20px;
+    height: 3rem;
+}
+.plans{
+   text-align: center; 
+}
+@media (max-width:1024px) {
+    .plans h2{
+        margin-left: 3rem;
+    }
+    .pricingHead{
+        height: 13vw;
+        padding: 10px 15px;
+    }
+    .pricingBody{
+        height: 52vw;
+    }
+    
+    @media (max-width:900px) {
+        .plans h2{
+            margin-left: 0rem;
+        }
+        .pricingHead{
+            height: 18vw;
+        }
+        .pricingBody{
+            height: 64vw;
+        }
+        
+    }
+}
+@media (max-width:425px) {
+   
+    .plans h2{
+        font-size: 30px;
+        margin-left: 0rem;
+    }
+    .pricingBody{
+        margin-top: 0;
+    }
+    .pricingHead{
+        height: 32vw;
+    }
+    .pricingBody{
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+    .bestPlans{
+        padding: 0;
+    }
+    
+
+}

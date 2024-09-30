@@ -1,0 +1,53 @@
+.testimonials{
+    background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722403280/testi-bg_pfszct.png);
+    height: 49vw;
+    width: 100%;
+    margin-top: 2rem;
+}
+.testinomailsHead h5{
+    color: #ff3d00;
+    border-radius: 30px;
+    background-color: #161a2b;
+    border: 2px solid #40465d;
+    font-size: 18px;
+    font-weight: 600;
+    width: 12%;
+    text-align: center;
+    padding: 1rem;
+    margin:auto;
+}
+.testimonialSpace{
+   padding: 3rem;
+   text-align: center;
+}
+.customerReview h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.customerReview span{
+    color: #ff3d00;
+}
+@media (max-width:1024px) {
+    .testinomailsHead h5{
+        width:auto
+    }
+    .testimonials{
+        height: 100%;
+    }
+}
+@media (max-width:900px) {
+    .testinomailsHead h5{
+        width: auto
+    }
+}
+@media (max-width:767px) {
+    .testinomailsHead h5{
+        width:auto
+    }
+    .customerReview h1 {
+        color: #fff;
+        font-size: 33px;
+        font-weight: 700;
+    }   
+}

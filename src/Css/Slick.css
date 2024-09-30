@@ -1,0 +1,117 @@
+.slide img
+{
+    width: 80%;
+}
+.slikee{
+    background-color: #171a2b;
+    text-align: center;
+    color: #fff;
+    height: 10vw;
+    width: 80%;
+    border-radius: 10px;
+    /* margin-top: -1rem; */
+}
+.slikee h3{
+    padding: 1.5rem;
+}
+.slick2 img{
+    height: 4.2vw;
+    /* padding: 1rem; */
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+.slick2{
+    height: 5vw;
+    margin-top: 0;
+}
+.slickHead{
+    background-color: #171a2b;
+    text-align: center;
+    color: #fff;
+    height: 32vw;
+    width: 85% !important ;
+    border-radius: 19px;
+    margin-top: 3rem;
+}
+.slickHead img{
+    height: 4vw;
+    padding: 7px;
+    width: 15%;
+    margin: auto;
+    padding-top: 1rem;
+}
+   .slickHead p{
+    font-size: 18px;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0 ;
+   }
+   .slickHead span{
+    color: #ff3d00;
+    font-weight: 650;
+    padding-left: 1rem;
+} 
+.starIcon {
+    color: rgb(215, 215, 49);
+    margin-left:10px ;
+    font-size: 19px;
+}
+@media (max-width:1024px){
+    .slikee{
+        height: 17vw;
+        margin-top: -1.1rem;
+        line-height: 4px;
+    }
+    .slickHead{
+        height: 40vw;
+    }
+    .slickHead p {
+        max-height:29vw;
+        overflow-y: hidden;
+    }
+}
+@media (max-width:900px) {
+    .slikee{
+        height: 19vw;
+        margin-top: -1.1rem;
+        line-height: 0px;
+    }
+    .slikee h3{
+        padding: 23px;
+        font-size: 20px;
+        font-size: 20px;
+    }
+    .slickHead{
+        height: 45vw;
+    }
+    .slickHead p {
+        /* max-height:15vw; */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+         overflow: hidden ;
+        text-overflow: ellipsis;
+    }
+    
+}
+@media (max-width:450px) {
+    .slikee{
+        height: 27vw;
+        margin-top: -1.1rem;
+    }
+    .slickHead{
+        height:  85vw;
+    }
+    .slickHead p {
+        /* max-height:22vw; */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        /* white-space: nowrap; */
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    
+}

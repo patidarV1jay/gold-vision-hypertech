@@ -1,0 +1,98 @@
+.professionalServices h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.professionalServices span{
+    color: #ff3d00;
+}
+.professionalItService{
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 5%;
+}
+.success{
+    margin-left: 40%;
+    margin-bottom: 2%;
+    padding-top: 5rem;
+}
+.plusIcon{
+    display: inline-block;
+    color: #ff3c00;
+    background: #dcd7d778;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 70%;
+    transition: 0.5s;
+    margin-bottom: 2rem;   
+}
+.professionalDetails img{
+    margin: 2rem;
+}
+.professionalDetails p{
+    text-align: start;
+    font-size: 18px;
+    padding: 5px;
+}
+.professionalDetails h4{
+    font-weight: 700;
+    font-size: 27px;
+}
+.professionalDetails {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* width: 20%; */
+    /* margin-left: 5rem; */
+    margin-bottom: 4rem;
+}
+.ServiceImage img{
+    /* position: absolute; */
+   margin-right: 5%;
+}
+@media (max-width: 1024px) {
+    .professionalDetails
+    {
+         margin-left: 3rem;
+        /* width: 37%; */
+    }
+}
+@media (max-width: 900px) {
+    .professionalDetails
+    {
+         margin-left: 2.5rem;
+        /* width: 37%; */
+    }
+}
+@media (max-width: 767px) {
+    .professionalDetails
+    {
+         margin-left: 0rem;
+        /* width: 42%; */
+    }
+    .success {
+        margin-left: 4rem;
+        padding-top: 2rem;
+    }
+    .professionalServices h2
+{
+    font-size: 25px;
+    padding-left: 0;
+}}
+@media (max-width: 400px) {
+    .professionalDetails
+    {
+         margin-left: 0rem;
+        /* width: 42%; */
+    }
+    .success {
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+    .professionalServices h2
+{
+    font-size: 25px;
+    padding-left: 0;
+}}

@@ -1,0 +1,81 @@
+.contactImage img{
+    height: 35vw;
+    width: 100%;
+    border-radius: 20px;
+}
+.contactImage{
+    margin-top: 3rem;
+}
+.contactUs h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.contactUs span{
+    color: #ff3d00;
+}
+.contactform input{
+    height: 3.9rem;
+    outline: none;
+    border-radius: 8px ;
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid rgba(122, 122, 122, 0.5);
+}
+.contactMessage input{
+    height: 6rem;
+    width: 95%;
+}
+.submitBtn{
+    color: #fff;
+    background-color: #ff3d00;
+    width: 8rem;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+@media (max-width:1024px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+    }
+    .contactUs h1{
+        font-size: 30px;
+    }
+    .contactform input{
+        height: 3rem;
+    }
+}
+@media (max-width:900px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactUs h1{
+        font-size: 27px;
+    }
+    .contactform input{
+        height: 3rem;
+    }
+}
+@media (max-width:467px) {
+    .contactImage img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contactUs h1{
+        font-size: 27px;
+    }
+    .contactform input{
+        height: 3rem;
+    }
+}

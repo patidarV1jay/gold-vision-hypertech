@@ -1,0 +1,183 @@
+.servicesHeader span {
+  color: #ff3d00;
+  text-align: center;
+}
+.servicesHeader h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.ServicesGiven {
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+.plus {
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.readMore {
+  padding: 5px;
+  font-size: larger;
+  margin-left: 10px;
+  padding-top: 7px;
+  visibility: hidden;
+  opacity: 0;
+  color: #ff3d00;
+  font-weight: 600;
+}
+.servicesDetailProvided{
+    position: relative;
+    /* padding: 8px; */
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 20px;
+margin-bottom: 5rem;
+   }
+.servicesDetails {
+    position: absolute;
+    top: 11rem;
+    background: #ff3d00;
+    height: 4rem;
+    width: 4rem;
+    padding: 14px;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+.serviceShape img{
+    margin-right: 14px
+}
+.servicePost{
+    margin-top: 3rem;
+    margin-left: 10px;
+}
+.servicesDetailProvided:hover{
+  h4{
+    color: #ff3d00;
+  }
+  .readMore{
+    visibility: visible;
+    opacity: 1;
+  }
+  .plusIcon{
+    color: #fff;
+    background-color: #ff3d00;
+  }
+}
+.companyService{
+   background: #f4f4f4; 
+}
+.teamMembersHeading{
+    color: #fff;
+    background-color: #ff3d00;
+    height: 7rem;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;    
+}
+.teamMembersHeading h3{
+    padding-top: 18px;
+    font-size: 24px;
+}
+.teamSocialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    background: #161a2b;
+    color: #fff;
+    height: 18vw;
+    border-radius: 0px 0px 20px 20px ;
+    margin-top: -10px;
+    z-index: 0;
+    align-items: center;
+    position: static;
+}
+
+.teamMembersImage img{
+    height: 22vw;
+    margin-top: -21rem;
+    visibility: visible ;
+    opacity: 1;
+
+}
+.dedicatedTeamMembers{
+    visibility: hidden;
+    opacity: 0;
+   
+}
+.dedicatedTeam:hover{
+    .dedicatedTeamMembers{
+        visibility: visible;
+        opacity: 1;
+        border-radius: 10px;
+           }  
+    .teamMembersImage img  {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+}
+.dedicatedTeam{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+@media (max-width:900px) {
+  .serviceDetialsImage{
+    height: 100%;
+    width: 100%;
+  }
+  .servicesDetails {
+    height: 7vw;
+    margin-top: 2rem;
+    width: 7vw;
+  }
+  .servicesDetails img{
+    height: 100%;
+
+  }
+  .servicesHeader h1{
+    font-size: 35px;
+  }
+}
+@media (max-width:767px) {
+  .serviceDetialsImage{
+    height: 100%;
+    width: 100%;
+  }
+  .servicesDetails {
+    height: 10vw;
+    margin-top: 4.5rem;
+    width: 10vw;
+  } 
+   .servicesDetails img{
+    height: 5.5vw;
+    margin-top: -12px;
+    margin-left: -5px;
+
+  }
+  .servicesHeader h1{
+    font-size: 25px;
+  }
+}
+@media (max-width:400px) {
+  .serviceDetialsImage{
+    height: 100%;
+    width: 100%;
+  }
+  .servicesDetails {
+    height: 10vw;
+    margin-top: 2.5rem;
+    width: 10vw;
+  } 
+   .servicesDetails img{
+    height: 5.5vw;
+    margin-top: -12px;
+    margin-left: -5px;
+
+  }
+  .servicesHeader h1{
+    font-size: 25px;
+  }
+}

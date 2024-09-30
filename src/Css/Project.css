@@ -1,0 +1,103 @@
+.recentProjects h2{
+    font-size: 50px;
+    font-weight: 650;
+    margin-bottom: 3rem;
+}
+.projects{
+    background-color:#d4d4d44a;
+    /* height: 87vw; */
+}
+.recentProjects span{
+    color: #ff3d00;
+}
+.projectDetailBtn{
+    font-size: 23px;
+    color: #fff;
+    background-color: #ff3d00;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 7rem;
+    width: 11rem;
+    padding: 4px;
+    
+}
+.professionalServicesGiven{
+gap: 20px;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.brandNames{
+    background-color: #ff3d00;
+    /* margin-top: 3rem; */
+    height: 8rem;
+    margin-top: -1rem;
+    border-radius: 20px; 
+    width: 96%;
+    text-align: center;
+    margin-left: 2.2%;
+    /* z-index: 0; */
+
+}
+.recentUpdates{
+    margin-top: 1rem;
+}
+.slickData {
+    height: 50vw;
+    background: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722325637/project-bg_dhgemf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0 88px;
+    /* z-index: 1; */
+}
+.Link{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:1024px) {
+    .projectDetailBtn{
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+        /* margin-left: 79%; */
+    }
+    .recentUpdates h6{
+        width: 35%;
+        /* margin-left: 35% */
+    } 
+    .recentProjects h2{
+        font-size: 30px;
+    }
+    .projectDetailBtn{
+        font-size: 20px;
+    }
+    .slickData{
+        height: 100%;
+    }
+}
+@media (max-width:450px) {
+    .recentUpdates h6{
+        width: 60% ;
+        margin-left: 1% !important;
+        padding-top: 1rem;
+    }
+    .recentProjects h2{
+        margin-bottom: 0;
+        /* padding: 1rem; */
+        font-size: 33px;
+    }
+    .projectDetailBtn {
+        /* margin-top: 5rem !important; */
+        margin-bottom: 2rem;
+        margin-left: 0;
+        width: auto;
+        padding: 7px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .slickData{
+        height: 100%;
+    }
+}

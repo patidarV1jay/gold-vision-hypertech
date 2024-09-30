@@ -1,0 +1,38 @@
+.blogCalendar{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* gap: 2rem; */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+}
+.userIcon{
+    padding: 2px;
+    margin-top: -2px;
+    color: #ff3d00;
+}
+.blogCalendar span{
+    padding: 5px;
+}
+.blogIcons
+{
+margin-left: 1rem;
+}
+.blogGrid p{
+    margin-top: 2rem;
+    margin-bottom: 02rem;
+    font-size: 18px;
+    font-size: 700;
+}
+.blogGrid p:hover{
+    color: #ff3d00;
+}
+.blogGrid h4:hover{
+    color: #ff3d00
+    }
+.blogGrid{
+    margin-top: 2rem;
+}

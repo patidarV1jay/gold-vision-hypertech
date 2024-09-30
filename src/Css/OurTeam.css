@@ -1,0 +1,108 @@
+.teamDetailImage{
+    background-image: url(https://res.cloudinary.com/dixfg1bvv/image/upload/v1722503506/team-shape_rgdtzn.png);
+    height: 10vw;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    margin-top: -10rem;
+}
+.ourTeam{
+    background-color: #c6c6c650;
+    text-align: center;
+    
+}
+.teamMembers h6{
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    width: 15%;
+}
+.teamDetails{
+    background-color: #fff;
+    border-radius: 10px ;
+}
+.teamMembersImage img{
+    height: 16vw;
+    width: 93%;
+    padding:1rem ;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 18px;
+    /* margin-bottom: 2rem; */
+}
+.teamMembers{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1px;
+}
+ h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.teamDetailsHead{
+    text-align: center;
+    background-color: #ff3d00;
+    height: 7vw;
+    border-radius: 8px;
+}
+.teamDetailsHead h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 2rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+.teamDetailsHead h6{
+    color: #fff;
+    margin-top: 1rem;
+}
+.socialMedia span{
+    color: #ff3d00;
+}
+.teamMembers h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.teamMembersh6{
+    width: 30%;
+}
+.clientFeedback{
+    background-color:#fff ;
+}
+.feedbackImage1{
+    margin: 2rem;
+}
+.feedbackImage1 img{
+    margin-top: 2rem;
+}
+.feedback{
+    text-align: center;
+    width: 90%;
+    background-color: #c6c6c650;
+    border-radius: 20px;
+}
+.feedbackclients{
+    margin: 2rem;
+}
+@media (max-width:786px) {
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+}
+@media (max-width:450px) {
+    .teamMembers h6{
+        width: 66%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+}
